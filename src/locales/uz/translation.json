@@ -1,0 +1,64 @@
+{
+    "common": {
+        "loading": "Yuklanmoqda...",
+        "error": "Xatolik yuz berdi",
+        "save": "Saqlash",
+        "cancel": "Bekor qilish",
+        "delete": "O'chirish",
+        "edit": "Tahrirlash",
+        "search": "Qidirish",
+        "noData": "Ma'lumot topilmadi",
+        "yes": "Ha",
+        "no": "Yo'q"
+    },
+    "nav": {
+        "home": "Bosh sahifa",
+        "products": "Mahsulotlar",
+        "about": "Biz haqimizda",
+        "cart": "Savat",
+        "profile": "Profil",
+        "login": "Kirish",
+        "register": "Ro'yxatdan o'tish",
+        "logout": "Chiqish",
+        "admin": "Admin panel"
+    },
+    "auth": {
+        "login": "Kirish",
+        "register": "Ro'yxatdan o'tish",
+        "email": "Email",
+        "password": "Parol",
+        "confirmPassword": "Parolni tasdiqlash",
+        "fullName": "To'liq ism",
+        "forgotPassword": "Parolni unutdingizmi?",
+        "loginSuccess": "Muvaffaqiyatli kirdingiz!",
+        "registerSuccess": "Ro'yxatdan o'tish muvaffaqiyatli!"
+    },
+    "product": {
+        "addToCart": "Savatga qo'shish",
+        "price": "Narxi",
+        "category": "Kategoriya",
+        "description": "Tavsif",
+        "inStock": "Mavjud",
+        "outOfStock": "Mavjud emas",
+        "quantity": "Miqdor"
+    },
+    "cart": {
+        "title": "Savat",
+        "empty": "Savatingiz bo'sh",
+        "total": "Jami",
+        "checkout": "Buyurtma berish",
+        "remove": "O'chirish",
+        "clear": "Tozalash"
+    },
+    "order": {
+        "title": "Buyurtma",
+        "myOrders": "Mening buyurtmalarim",
+        "status": {
+            "pending": "Kutilmoqda",
+            "processing": "Jarayonda",
+            "shipped": "Yuborildi",
+            "delivered": "Yetkazildi",
+            "cancelled": "Bekor qilindi"
+        }
+    }
+}

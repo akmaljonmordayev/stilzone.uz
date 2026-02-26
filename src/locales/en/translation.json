@@ -1,0 +1,64 @@
+{
+    "common": {
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "search": "Search",
+        "noData": "No data found",
+        "yes": "Yes",
+        "no": "No"
+    },
+    "nav": {
+        "home": "Home",
+        "products": "Products",
+        "about": "About Us",
+        "cart": "Cart",
+        "profile": "Profile",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "admin": "Admin Panel"
+    },
+    "auth": {
+        "login": "Login",
+        "register": "Register",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "fullName": "Full Name",
+        "forgotPassword": "Forgot password?",
+        "loginSuccess": "Successfully logged in!",
+        "registerSuccess": "Registration successful!"
+    },
+    "product": {
+        "addToCart": "Add to Cart",
+        "price": "Price",
+        "category": "Category",
+        "description": "Description",
+        "inStock": "In Stock",
+        "outOfStock": "Out of Stock",
+        "quantity": "Quantity"
+    },
+    "cart": {
+        "title": "Cart",
+        "empty": "Your cart is empty",
+        "total": "Total",
+        "checkout": "Checkout",
+        "remove": "Remove",
+        "clear": "Clear"
+    },
+    "order": {
+        "title": "Order",
+        "myOrders": "My Orders",
+        "status": {
+            "pending": "Pending",
+            "processing": "Processing",
+            "shipped": "Shipped",
+            "delivered": "Delivered",
+            "cancelled": "Cancelled"
+        }
+    }
+}

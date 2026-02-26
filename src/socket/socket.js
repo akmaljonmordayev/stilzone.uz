@@ -1,6 +1,5 @@
 import { io } from 'socket.io-client';
-
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'http://localhost:3000';
+import { SOCKET_URL, STORAGE_KEYS } from '../config/constants';
 
 let socket = null;
 
@@ -8,7 +7,7 @@ export const getSocket = () => {
     if (!socket) {
         socket = io(SOCKET_URL, {
             auth: {
-                token: localStorage.getItem('token'),
+                token: localStorage.getItem(STORAGE_KEYS.TOKEN),
             },
             autoConnect: false,
         });

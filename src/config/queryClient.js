@@ -10,6 +10,9 @@ const queryClient = new QueryClient({
         },
         mutations: {
             retry: 0,
+            onError: (error) => {
+                console.error('Mutation error:', error);
+            },
         },
     },
 });

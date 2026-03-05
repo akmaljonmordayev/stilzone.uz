@@ -1,4 +1,32 @@
 import React from "react";
+import "./Footer.css";
+import { FaCut, FaInstagram } from "react-icons/fa";
+import { FaXTwitter, FaFacebookF } from "react-icons/fa6";
+
+const FOOTER_SECTIONS = [
+  {
+    title: "For Customers",
+    links: [
+      "Find a Barber",
+      "AI Hairstyle Preview",
+      "Nearby Beauty Shops",
+      "Mobile App",
+    ],
+  },
+  {
+    title: "For Professionals",
+    links: [
+      "List your Business",
+      "Queue Management",
+      "Partner Rewards",
+      "Business Analytics",
+    ],
+  },
+  {
+    title: "Company",
+    links: ["About Us", "Careers", "Press Kit", "Contact"],
+  },
+];
 
 function Footer() {
   return (

@@ -1,16 +1,112 @@
-# React + Vite
+# Stilzone.uz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Stilzone.uz is a modern web platform designed for barbershops and beauty salons.
+The platform helps users easily find professional barbers and hairstylists, explore available services, and manage appointments in one convenient place.
 
-Currently, two official plugins are available:
+The project supports both **men’s barbers (barbershops)** and **women’s hairstylists**, providing a digital solution for hair and beauty services.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✂️ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Browse barbers and hairstylists
+* Explore available haircut and beauty services
+* Appointment booking system
+* Interactive map for locating barbershops
+* Multi-language support
+* Responsive and modern UI
+* Real-time updates
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+### Frontend
+
+* React 19
+* React Router DOM
+* Ant Design (UI library)
+* Swiper (sliders)
+* Framer Motion / Motion (animations)
+
+### State & Data Management
+
+* TanStack React Query
+* Zustand
+* Axios
+
+### Forms & Validation
+
+* React Hook Form
+* Yup
+
+### Internationalization
+
+* i18next
+* react-i18next
+
+### Visualization & Maps
+
+* Chart.js
+* React Chart.js 2
+* Leaflet (maps)
+
+### Utilities
+
+* Day.js
+* DOMPurify
+* QS
+
+### Notifications & UI
+
+* React Toastify
+* React Icons
+* React Paginate
+
+### Development Tools
+
+* Vite
+* ESLint
+* JSON Server (mock API)
+
+---
+
+## 🚀 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/akmaljonmordayev/stilzone.uz.git
+cd stilzone.uz
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build the project:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🎯 Project Goal
+
+The goal of Stilzone is to simplify the process of finding professional barbers and hairstylists while providing a modern digital platform for barbershops to manage services and appointments.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Akmaljon Mordayev**

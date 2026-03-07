@@ -1,7 +1,7 @@
 import React from "react";
 import "./ExcellenceCard.css";
 
-function ExcellenceCard({ icon, title, description}) {
+function ExcellenceCard({ icon, title, description }) {
   return (
     <div className="excellence-card">
       {icon && <div className="card-icon">{icon}</div>}

@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px; 
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qaychi {
+  background-color: #24a0ed;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px; 
+  font-size: 20px;
+}
+
+.joni {
+  font-weight: 800;
+  font-size: 22px;
+  color: #24a0ed;
+  letter-spacing: -0.5px;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 25px; 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4b5563; 
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-links a.active {
+  color: #000; 
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.login {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 600;
+}
+
+.join-btn {
+  background-color: #24a0ed;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+  @keyframes snip {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-15deg); }
+  50% { transform: rotate(15deg); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.logo:hover .qaychi {
+  animation: snip 0.4s ease-in-out;
+}
+
+
+.join-btn {
+  background-color: #24a0ed;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.join-btn:hover {
+  background-color: #1a80c2;
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 12px rgba(36, 160, 237, 0.3); 
+}
+
+.join-btn:active {
+  transform: translateY(0);
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4b5563;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #24a0ed; 
+}
+
+.login:hover {
+  color: #24a0ed;
+}

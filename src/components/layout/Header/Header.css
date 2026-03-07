@@ -25,6 +25,12 @@ body {
   gap: 10px;
 }
 
+.nav-links a.active {
+  color: #000;
+  border-bottom: 2px solid #24a0ed;
+  padding-bottom: 4px;
+}
+
 .qaychi {
   background-color: #24a0ed;
   color: white;

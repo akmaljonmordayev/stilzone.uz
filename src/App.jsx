@@ -7,6 +7,8 @@ import About from "./pages/About/About"
 import Login from "./pages/Auth/Login/Login"
 import Register from "./pages/Auth/Register/Register"
 import Profile from "./pages/Profile/Profile"
+import FindBarber from "./pages/FindBarber/FindBarber"
+import AiStyles from "./pages/AiStyles/AiStyles"
 import MainLayout from "./layouts/MainLayout/MainLayout";
 function App() {
   return <>
@@ -19,6 +21,8 @@ function App() {
       <Route path="/signup" element={<Register/>}></Route>
       <Route path="/about" element={<About/>}></Route>
       <Route path="/profile" element={<Profile/>}></Route>
+      <Route path="/find-barber" element={<FindBarber/>}></Route>
+      <Route path="/ai-styles" element={<AiStyles/>}></Route>
     </Routes>
 
   </>;

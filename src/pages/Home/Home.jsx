@@ -1,13 +1,16 @@
 import React from 'react';
 import './Home.css';
-
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { CiSearch } from "react-icons/ci";
+import { LiaUserSolid } from "react-icons/lia";
+import { RiStarSFill } from "react-icons/ri";
+import { IoIosFlash } from "react-icons/io";
 const Home = () => {
   return (
        <>
       <h1>
         Grooming,<span>Synchronized</span>.
       </h1>
-
       <p>
         Find the best local barbers, see live wait times, and skip the line.
         Your time is precious—spend it looking good, not waiting.
